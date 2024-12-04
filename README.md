@@ -23,17 +23,22 @@ For TrackPGD experiments, we used the following networks:
 
 + MixFormerM: 
     - Tracker network(mixformer_vit_score_imagemae.pth.tar) from https://drive.google.com/file/d/1EOZgd3HVlTmhPdsWd-zGqx4I53H4oiqf/view
+      
        Download the network and place the file into the following directory:
         "MixFormerM_submit/mixformer/models"
+      
     - Segmentation network(SEcmnet_ep0440.pth.tar) from https://drive.google.com/file/d/1J0ebV0Ksye62yQOba8ymCoWFFg-MxXVy/view
+ 
     Place this network into the following directory:
     "MixFormerM_submit/mixformer/external/AR/ltr/checkpoints/ltr/ARcm_seg/ARcm_coco_seg_only_mask_384"
 
 + OSTrackSTS:
     - Tracker network(ostrack320_elimination_cls_t2m12_seg_ep50-20230706T225239Z-001.zip): from https://drive.google.com/drive/folders/1PwG4i25GZFsB8g5W0E-tZUMUSUlVzcCz?usp=sharing
+
       Download the pretrained weights in the folder entitled "ostrack320_elimination_cls_t2m12_seg_ep50" and place the file into the following directory:
     "$PROJ_ROOT$/output/checkpoints/train/ostrack/ostrack320_elimination_cls_t2m12_seg_ep50"
     - Segmentation network(baseline_plus_got_lasot): from https://drive.google.com/drive/folders/1PwG4i25GZFsB8g5W0E-tZUMUSUlVzcCz?usp=sharing 
+    
     Besides, you may also need to download the weights of AlphaRefine from the folder "baseline_plus_got_lasot" and place the weight file into the following directory:
     "$PROJ_ROOT$/external/AR_VOT22/checkpoints/ltr/ARcm_seg/baseline_plus_got_lasot" 
 
