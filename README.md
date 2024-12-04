@@ -22,16 +22,16 @@ For each tracker follow the instructions to build the suitable environment as st
 For TrackPGD experiments, we used the following networks:
 
 + MixFormerM: 
-    ++ Tracker network(mixformer_vit_score_imagemae.pth.tar) from https://drive.google.com/file/d/1EOZgd3HVlTmhPdsWd-zGqx4I53H4oiqf/view 
+    - Tracker network(mixformer_vit_score_imagemae.pth.tar) from https://drive.google.com/file/d/1EOZgd3HVlTmhPdsWd-zGqx4I53H4oiqf/view 
     Place this network on the (MixFormerM_submit/mixformer/models)
-    ++ Segmentation network(SEcmnet_ep0440.pth.tar) from https://drive.google.com/file/d/1J0ebV0Ksye62yQOba8ymCoWFFg-MxXVy/view
+    - Segmentation network(SEcmnet_ep0440.pth.tar) from https://drive.google.com/file/d/1J0ebV0Ksye62yQOba8ymCoWFFg-MxXVy/view
     Place this network on the (MixFormerM_submit/mixformer/external/AR/ltr/checkpoints/ltr/ARcm_seg/ARcm_coco_seg_only_mask_384)
 
 + OSTrackSTS:
-    ++ Tracker network(ostrack320_elimination_cls_t2m12_seg_ep50-20230706T225239Z-001.zip): from https://drive.google.com/drive/folders/1PwG4i25GZFsB8g5W0E-tZUMUSUlVzcCz?usp=sharing
+    - Tracker network(ostrack320_elimination_cls_t2m12_seg_ep50-20230706T225239Z-001.zip): from https://drive.google.com/drive/folders/1PwG4i25GZFsB8g5W0E-tZUMUSUlVzcCz?usp=sharing
     Download the pre-trained weight under the folder "ostrack320_elimination_cls_t2m12_seg_ep50" and place the weight file under
     "$PROJ_ROOT$/output/checkpoints/train/ostrack/ostrack320_elimination_cls_t2m12_seg_ep50"
-    ++ Segmentation network(baseline_plus_got_lasot): from https://drive.google.com/drive/folders/1PwG4i25GZFsB8g5W0E-tZUMUSUlVzcCz?usp=sharing 
+    - Segmentation network(baseline_plus_got_lasot): from https://drive.google.com/drive/folders/1PwG4i25GZFsB8g5W0E-tZUMUSUlVzcCz?usp=sharing 
     Besides, you may also need to download the weights of AlphaRefine under the folder "baseline_plus_got_lasot" and place the weight file under
     "$PROJ_ROOT$/external/AR_VOT22/checkpoints/ltr/ARcm_seg/baseline_plus_got_lasot" 
 
@@ -80,8 +80,11 @@ env_PATH = <PATH_OF_PYTHON>
 
 
 ## Step 6.a: Run the MixFormerM tracker attacked by TrackPGD for VOT2022STS evaluation
+
 1- Enter the VOT workplace directory (/path/to/vot22_seg_mixformer_large)
+
 2- Activate the MixFormer environment. 
+
 3- Run:
 ```
 vot evaluate --workspace . MixFormer_TrackPGD
