@@ -44,14 +44,12 @@ Follow the instructions of each tracker to correct the paths and run the setup f
 
 2- Add a new entry to trackers.ini file in "vot22_seg_mixformer_large" directory(/MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
 ```
-######################################
 [MixFormer_TrackPGD]  
 label = MixFormer_TrackPGD
 protocol = traxpython
 command = mixformer_vit_large_vit_seg_class_TrackPGD
 paths = <PATH_OF_MIXFORMER>:<PATH_OF_MIXFORMER>/external/AR/pytracking/TrackPGD:<PATH_OF_MIXFORMER>/external/AR
 env_PATH = <PATH_OF_PYTHON>
-#####################################
 ```
 
 3- Edit the paths of MixFormer_TrackPGD entry to include all of the necessary paths as recommended on the tracker' README.md file. The <PATH_OF_MIXFORMER> is your path to "mixformer" folder.
@@ -64,14 +62,12 @@ env_PATH = <PATH_OF_PYTHON>
 2- Add a new entry to trackers.ini file in "vot22/OSTrackSTS" directory(OStrack/external/vot22/OSTrackSTS) as follows:
 
 ```
-####################################
 [OSTrackSTS_TrackPGD]  
 label = OSTrackSTS_TrackPGD
 protocol = traxpython
 command = OSTrackSTS_TrackPGD
 paths = <PATH_OF_OSTrack>:<PATH_OF_OSTrack>//external/AR_VOT22/pytracking/TrackPGD
 env_PATH = <PATH_OF_PYTHON>
-####################################
 ```
 
 3- Edit the paths of the OSTrackSTS_TrackPGD entry to include all of the necessary paths as recommended on the tracker' README.md file.  The <PATH_OF_OSTrack> is your path to the "OSTrack" folder.
