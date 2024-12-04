@@ -2,7 +2,9 @@
 [NeurIPS 2024 in AdvML Workshop]  TrackPGD: Efficient Adversarial Attack using Object Binary Masks against Robust Transformer Trackers
 
 [Project Webpage](https://lvsn.github.io/TrackPGD/)
+
 [OpenReview] coming soon!
+
 [ArXiv](https://arxiv.org/abs/2407.03946)
 
 ### TrackPGD Attack for MixFormerM and OSTrackSTS trackers
