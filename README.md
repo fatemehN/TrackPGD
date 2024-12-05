@@ -7,18 +7,16 @@ NeurIPS 2024 in AdvML Workshop
 
 [ArXiv](https://arxiv.org/abs/2407.03946)
 
-### TrackPGD Attack for MixFormerM and OSTrackSTS trackers
-
 ## Mask Evaluation 
-## Step1: Download the trackers packages
+## Step 1: Download the trackers packages
 Please download the trackers from the VOT challenge (VOT2022) website, as follows:
 + MixFormerM: http://data.votchallenge.net/vot2022/trackers/MixFormerM-code-2022-05-04T09_55_58.619853.zip
 + OSTrackSTS: https://data.votchallenge.net/vot2022/trackers/OSTrackSTS-code-2022-05-03T18_41_55.435766.zip 
 
-## Step2: Create the environment
+## Step 2: Create the environment
 For each tracker follow the instructions to build the suitable environment as stated in their README.md file. 
 
-## Step3: Download the networks 
+## Step 3: Download the networks 
 For TrackPGD experiments, we used the following networks:
 
 + MixFormerM: 
