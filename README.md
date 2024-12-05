@@ -47,9 +47,9 @@ For TrackPGD experiments, we used the following networks:
 Follow the instructions of each tracker to correct the paths and run the setup files. 
 
 ## Step 5.a: Set the paths for MixFormerM
-1- From MixFormerM folder on TrackPGD directory(TrackPGD/code/MixFormerM), find TrackPGD folder. Copy and paste this folder into the tracker folder (/MixFormerM_submit/mixformer/external/AR/pytracking/). 
+1- From MixFormerM folder on TrackPGD directory(TrackPGD/MixFormerM), find TrackPGD folder. Copy and paste this folder into the tracker folder (/MixFormerM_submit/mixformer/external/AR/pytracking/). 
 
-2- Add a new entry to trackers.ini file in "vot22_seg_mixformer_large" directory(/MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
+2- Add a new entry to the trackers.ini file in the "vot22_seg_mixformer_large" directory(/MixFormerM_submit/mixformer/vot22_seg_mixformer_large) as follows:
 ```
 [MixFormer_TrackPGD]  
 label = MixFormer_TrackPGD
@@ -64,9 +64,9 @@ env_PATH = <PATH_OF_PYTHON>
 4- Edit <PATH_OF_PYTHON> with your path to the MixFormer environment you built in ##Step 2.
 
 ## Step 5.b: Set the paths for OSTrackSTS
-1- From OSTrackSTS folder on TrackPGD directory(TrackPGD/code/OSTrackSTS), find TrackPGD folder. Copy and paste this folder to the (OSTrack/external/AR_VOT22/pytracking) of the tracker folder.
+1- From OSTrackSTS folder on TrackPGD directory(TrackPGD/OSTrackSTS), find TrackPGD folder. Copy and paste this folder to the (OSTrack/external/AR_VOT22/pytracking) of the tracker folder.
 
-2- Add a new entry to trackers.ini file in "vot22/OSTrackSTS" directory(OStrack/external/vot22/OSTrackSTS) as follows:
+2- Add a new entry to the trackers.ini file in the "vot22/OSTrackSTS" directory(OStrack/external/vot22/OSTrackSTS) as follows:
 
 ```
 [OSTrackSTS_TrackPGD]  
