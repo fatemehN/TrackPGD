@@ -3,7 +3,7 @@
 
 [Project Webpage](https://lvsn.github.io/TrackPGD/)
 
-[OpenReview](https://openreview.net/forum?id=niCzJh1cbP&referrer=%5Bthe%20profile%20of%20Fatemeh%20Nourilenjan%20Nokabadi%5D(%2Fprofile%3Fid%3D~Fatemeh_Nourilenjan_Nokabadi3))
+[OpenReview](https://openreview.net/forum?id=niCzJh1cbP)
 
 [ArXiv](https://arxiv.org/abs/2407.03946)
 
