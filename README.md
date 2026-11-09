@@ -1,4 +1,8 @@
 # TrackPGD Attack 
+[CRV 2025] TrackPGD was accepted, published and presented at the 22nd Conference on Robots and Vision (CRV 2025), Calgary, Canada.
+
+[CRV 2025 Paper](https://doi.org/10.21428/d82e957c.333dc148)
+
 [NeurIPS 2024 in AdvML Workshop] TrackPGD: Efficient Adversarial Attack using Object Binary Masks against Robust Transformer Trackers
 
 [Project Webpage](https://lvsn.github.io/TrackPGD/)
